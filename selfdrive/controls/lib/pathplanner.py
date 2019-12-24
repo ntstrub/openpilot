@@ -112,7 +112,7 @@ class PathPlanner():
 
       # State transitions
       # off
-      if self.pre_lane_change_timer > 2.0:
+      if self.pre_lane_change_timer > 1.0:
         torque_applied = True
 
       #if False: # self.lane_change_state == LaneChangeState.off and one_blinker and not self.prev_one_blinker:
