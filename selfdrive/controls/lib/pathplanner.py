@@ -99,7 +99,7 @@ class PathPlanner():
         self.pre_lane_change_timer += DT_MDL
       elif sm['carState'].rightBlinker:
         lane_change_direction = LaneChangeDirection.right
-         self.pre_lane_change_timer += DT_MDL
+        self.pre_lane_change_timer += DT_MDL
       else:
         self.pre_lane_change_timer = 0.0
 
